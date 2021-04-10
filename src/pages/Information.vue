@@ -4,7 +4,7 @@
           <div class="container">
             <div class="row" style="text-align:center">
           <div class="col-md-4" style="text-align:center">
-            <p style="margin-left:5px"><b>{{ $t('information.1.name') }}</b></p>
+            <p><b>{{ $t('information.1.name') }}</b></p>
             <div class="row" style="text-align:left; justify-content:center">
             <div class="col-md-2">
             <img src="../assets/static/video-files.svg"/>
@@ -15,7 +15,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <p style="margin-left:60px"><b>{{ $t('information.2.name') }}</b></p>
+            <p><b>{{ $t('information.2.name') }}</b></p>
             <div class="row" style="text-align:left; justify-content:center">
             <div class="col-md-2">
             <img src="../assets/static/together.svg"/>
@@ -26,7 +26,7 @@
             </div>
           </div>
           <div class="col-md-4" style="text-align:center">
-            <p style="margin-left:40px"><b>{{ $t('information.3.name') }}</b></p>
+            <p><b>{{ $t('information.3.name') }}</b></p>
             <div class="row" style="text-align:left; justify-content:center">
             <div class="col-md-2">
             <img src="../assets/static/teaching.svg"/>
@@ -40,19 +40,14 @@
         </div>
         </div>
         <div class="container">
-          <div class="row">
-            <div class="col-md-8">
-        <!-- <div class="input-group"> -->
+          <div class="row" style="justify-content:center; text-align:center">
           <input type="search" placeholder="Search" />
-            </div>
-            <div class="col-md-4">
           <button type="button">{{ $t('information.explore') }}</button>
-            </div>
         </div>
         </div>
-        <div class="container" style="margin-top:70px">
+        <div class="container" style="margin-top:5%">
           <h4><b>{{ $t('courses.name1') }}</b></h4>
-          <div class="row" style="margin-top:30px; text-align:center; justify-content:center; margin-bottom: 50px">
+          <div class="row" style="margin-top:4%; text-align:center; justify-content:center; margin-bottom: 5%">
             <div 
                     v-for="grade in grades" 
                     :key="grade.name"
@@ -62,7 +57,9 @@
                     <h5>{{grade.name}} <br>{{ $t('courses.grades') }}</h5></div>
         </div>
         <h4><b>{{ $t('courses.name2') }}</b></h4>
+        <div class="row" style="margin-top:4%; text-align:center; justify-content:center">
         <Courses/>
+        </div>
         </div>
     </div>
 </template>

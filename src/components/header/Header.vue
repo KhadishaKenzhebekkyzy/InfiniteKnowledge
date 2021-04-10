@@ -1,9 +1,11 @@
 <template>
-  <div id="header">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <router-link to="/">
           <img class="logo" src="../../assets/static/logo.svg" />
         </router-link>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="text-align:right; justify-content:right">
           <ul class="navbar-nav mr-auto" style="text-align:right; justify-content:right">
             <li class="nav-item" style="margin-left: 630px; margin-right:30px; margin-top:7px">
@@ -24,7 +26,6 @@
           </ul>
         </div>
       </nav>
-    </div>
 </template>
 
 <style scoped src="../../assets/styles/header.css">

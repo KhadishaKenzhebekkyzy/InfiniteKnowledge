@@ -25,9 +25,6 @@
                 <section id="dashboard">
                     <Dashboard />
                 </section>
-                <section id="courses">
-                    <SignIn />
-                </section>
             <!-- <router-view class="dashboard" name="dashboard"></router-view> -->
         </div>
         <div class="col-xs-6 col-md-3">

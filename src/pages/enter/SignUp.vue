@@ -2,12 +2,12 @@
     <div class="signIn">
         <div className="container">
             <router-link to="/">
-            <img src="../../assets/static/logo.svg" style="width:20%"/>
+            <img src="../../assets/static/logo.svg" style="max-width:20%"/>
             </router-link>
             <div class="card">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="../../assets/static/enter.svg" style="width:130%"/>
+                        <img src="../../assets/static/enter.svg" style="max-width:130%"/>
                     </div>
                     <div class="col-md-6">
                         <div className="row">
@@ -25,7 +25,7 @@
                                             placeholder="Enter password"
                                             className="inputFormsignin"
                                         />
-                            <button type="submit">Sign up</button>
+                            <router-link to="/sign-in"><button type="submit">Sign up</button></router-link>
                             <p>Already have an account? <a href="/sign-in">Sign in</a></p>
                         </div>
                     </div>
