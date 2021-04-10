@@ -1,0 +1,9 @@
+select{
+    background:none;
+    border: none;
+    outline:none;
+}
+
+select:focus{
+    outline: none;
+}

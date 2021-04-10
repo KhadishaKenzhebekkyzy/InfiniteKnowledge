@@ -1,0 +1,50 @@
+
+    .carousel-3d-slide {
+        /* background-image: url("../static/math-1.png"); */
+      background-color:#DEE2FF;
+      border-radius: 30px;
+      border: none;
+      text-align: center;
+    }
+
+    #one{
+        background-image: url("../static/math-1.png");
+    }
+
+    #two{
+        background-image: url("../static/math-2.png");
+    }
+
+    #three{
+        background-image: url("../static/math-3.png");
+    }
+
+    #four{
+        background-image: url("../static/math-4.png");
+    }
+
+    #five{
+        background-image: url("../static/math-5.png");
+    }
+
+    #six{
+        background-image: url("../static/math-6.png");
+    }
+
+    #seven{
+        background-image: url("../static/math-7.png");
+    }
+
+    #eight{
+        background-image: url("../static/math-8.png");
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+.content{
+    background-color: #DEE2FF;
+    height: 30%;
+    margin-top: 50%;
+}

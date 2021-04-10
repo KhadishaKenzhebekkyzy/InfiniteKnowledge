@@ -1,0 +1,30 @@
+{
+  "main": {
+    "courses": "Courses",
+    "login": "Login",
+    "welcome": "Welcome!",
+    "message": "Are you ready to learn some math?",
+    "description": "This is the E-learing platform full of materials to study math",
+    "interest": "I'm interested"
+  },
+  "information": {
+    "1": {
+      "name": "Learning Materials",
+      "desc": ">10,000 video materials to study"
+    },
+    "2": {
+      "name": "Community",
+      "desc": "Support from teacher and students"
+    },
+    "3": {
+      "name": "Teaching Staff",
+      "desc": "Highly qualified experts in their fields"
+    },
+    "explore": "Explore"
+  },
+  "courses": {
+    "grades": "grade",
+    "name1": "Grades",
+    "name2": "Popular Courses"
+  }
+}

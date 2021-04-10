@@ -1,0 +1,22 @@
+.logo{
+    width: 70%;
+}
+
+.login{
+    position: absolute;
+    width: 88px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background: #D8E3DC;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.login:hover, .login:focus{
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.12);
+}
+
+a{
+    color: black;
+}
