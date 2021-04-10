@@ -1,5 +1,4 @@
 {
-  "homepage": "https://khadishakenzhebekkyzy.github.io/InfiniteKnowledge/",
   "name": "infinite-knowledge",
   "version": "0.1.0",
   "private": true,
@@ -7,9 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\"",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -26,8 +23,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "vue-cli-plugin-i18n": "~2.0.3",
-    "vue-template-compiler": "^2.6.11",
-    "gh-pages": "^2.1.1"
+    "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
     "root": true,
