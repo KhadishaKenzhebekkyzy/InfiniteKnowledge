@@ -41,7 +41,7 @@
         </div>
         <div class="container">
           <div class="row" style="justify-content:center; text-align:center">
-          <input type="search" placeholder="Search" />
+          <input type="search" :placeholder="$t('information.search')" />
           <button type="button">{{ $t('information.explore') }}</button>
         </div>
         </div>

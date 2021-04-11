@@ -1,0 +1,32 @@
+#error{
+    background-image: url(../static/not_found.svg);
+    height: 100vh;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #DEE2FF;
+    padding-left: 55%;
+    padding-top: 30vh;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+
+button {
+    margin-top: 10%;
+    min-width: 100px;
+    min-height: 40px;
+    background: #F4ACB7;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+button:hover, button:focus{
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.12);
+}

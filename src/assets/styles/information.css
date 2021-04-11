@@ -1,5 +1,4 @@
-
-  
+ 
   .card{
     padding-top: 10px;
     width: 100%;
@@ -7,11 +6,15 @@
     border: none;
     border-radius: 0px;
     box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.1);
-    margin-bottom: 7%;
+    margin-bottom: 13vh;
+  }
+
+  .info{
+    color: #8E9AAF;
   }
 
   h4{
-    font-size: 20px;
+    font-size: 22px;
   }
 
   h5{
@@ -19,8 +22,8 @@
   }
   
   button{
-    height: 50px;
-    width: 70px;
+    min-height: 50px;
+    min-width: 70px;
     outline: none;
     border: none; 
     background: #CBC0D3;
@@ -55,15 +58,17 @@
     height: 50px;
     border: none; 
     width: 50%;
-    background: #FFFFFF;
+    background-color: white;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
   }
   
   input:focus{
     box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
     outline: none;
     border: none;
+    background-color: white;
   }
 
   .form-control rounded{
@@ -112,4 +117,10 @@
 
   #eleven{
     background: linear-gradient(115.83deg, #F4ACB7 41.55%, #DEE2FF 100%);
+  }
+
+  @media only screen and (min-width: 150px) and (max-width: 568px){
+    div{
+      text-align: center;
+    }
   }

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
 
 #main-text{
   margin-top: 30%;
@@ -24,8 +25,8 @@
 
 button{
   position: absolute;
-  width: 150px;
-  height: 40px;
+  min-width: 150px;
+  min-height: 40px;
   outline: none;
   border: none; 
   background: #F4ACB7;
@@ -68,14 +69,19 @@ input{
   border-radius: 10px;
 }
 
+h1{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
 input:focus{
   box-shadow: 0px 1px 50px rgba(0, 0, 0, 0.1);
   outline: none;
   border: none;
 }
 
-@media only screen and (min-width: 150px) and (max-width: 530px){
+@media only screen and (min-width: 150px) and (max-width: 568px){
   .logo{
-      width: 10%;
+      width: 35%;
+      margin-left: 50%;
   }
 }

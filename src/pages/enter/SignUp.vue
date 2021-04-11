@@ -1,6 +1,7 @@
 <template>
     <div class="signIn">
         <div className="container">
+            <language-switch style="margin-left:90%"/>
             <router-link to="/">
             <img src="../../assets/static/logo.svg" style="max-width:20%"/>
             </router-link>
@@ -11,22 +12,22 @@
                     </div>
                     <div class="col-md-6">
                         <div className="row">
-                            <h1>Sign Up</h1>
+                            <h1><b>{{ $t('enter.sign-up.title') }}</b></h1>
                             
                                     <input
                                             required
                                             type="email"
-                                            placeholder="Enter email"
+                                            :placeholder="$t('enter.email')"
                                             className="inputFormsignin"
                                         />
                                     <input
                                             required
                                             type="password"
-                                            placeholder="Enter password"
+                                            :placeholder="$t('enter.password')"
                                             className="inputFormsignin"
                                         />
-                            <router-link to="/sign-in"><button type="submit">Sign up</button></router-link>
-                            <p>Already have an account? <a href="/sign-in">Sign in</a></p>
+                            <router-link to="/sign-in"><button type="submit">{{ $t('enter.sign-up.btn') }}</button></router-link>
+                            <p>{{ $t('enter.sign-up.acc') }} <a href="/sign-in">{{ $t('enter.sign-in.btn') }}</a></p>
                         </div>
                     </div>
                 </div>
@@ -34,6 +35,17 @@
         </div>
     </div> 
 </template>
+
+<script>
+import LanguageSwitch from '../../components/LanguageSwitch'
+
+export default{
+    components:{
+        LanguageSwitch
+    }
+}
+</script>
+
 
 <style scoped src="../../assets/styles/sign-up.css">
 

@@ -4,17 +4,17 @@
           <hr/>
         <div class="row">
         <div class="col-xs-6 col-md-2">
-            <p>About us</p>
-            <p>
-             Contact us
-            </p>
+            <router-link to="/about-us"><p>{{ $t('footer.about-us') }}</p></router-link>
+            <router-link to="contact-us"><p>
+             {{ $t('footer.contact-us') }}
+            </p></router-link>
           </div>
 
           <div class="col-xs-6 col-md-2">
-            <p>Terms</p>
-            <p>
-             Privacy policy
-            </p>
+            <router-link to="terms"><p>{{ $t('footer.terms') }}</p></router-link>
+            <router-link to="privacy-policy"><p>
+             {{ $t('footer.privacy-policy') }}
+            </p></router-link>
           </div>
 
 

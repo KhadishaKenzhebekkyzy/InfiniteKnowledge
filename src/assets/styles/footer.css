@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
 .creators{
     -webkit-filter: grayscale(100%);
        -moz-filter: grayscale(100%);
@@ -13,3 +15,22 @@
      -ms-filter: grayscale(0%);
          filter: grayscale(0%); 
 }
+
+p{
+    color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+}
+
+p:hover, p:focus{
+    color: black;
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width: 150px) and (max-width: 568px){
+    div{
+        text-align: center;
+        justify-content: center;
+    }
+  }

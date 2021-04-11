@@ -1,6 +1,5 @@
 
     .carousel-3d-slide {
-        /* background-image: url("../static/math-1.png"); */
       background-color:#DEE2FF;
       border-radius: 30px;
       border: none;
@@ -40,7 +39,7 @@
     }
 
     h3{
-        font-size: 18px;
+        font-size: 16px;
     }
 
 .content{
