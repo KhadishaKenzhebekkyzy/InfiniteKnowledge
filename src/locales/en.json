@@ -53,5 +53,14 @@
     },
     "email": "Enter email",
     "password": "Enter password"
+  },
+  "user": {
+    "sidebar": {
+      "main": "Main",
+      "dashboard": "Dashboard",
+      "courses": "Courses",
+      "statistics": "Statistics",
+      "logout": "Logout"
+    }
   }
 }

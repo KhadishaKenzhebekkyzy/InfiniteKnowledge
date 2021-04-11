@@ -21,8 +21,8 @@ const router = new VueRouter({
       component: IntroPage
     },
     {
-      path: '/user',
-      name: 'personalArea',
+      path: '/user/dashboard',
+      name: 'dashboard',
       component: PersonalArea
     },
     {

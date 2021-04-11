@@ -12,7 +12,7 @@
               <language-switch/>
             </li>
             <li class="nav-item" >
-              <a class="nav-link active" href="/">
+              <a class="nav-link active" href="/courses">
                 {{ $t('main.courses') }}
               </a>
             </li>

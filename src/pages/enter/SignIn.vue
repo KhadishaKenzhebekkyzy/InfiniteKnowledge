@@ -26,7 +26,7 @@
                                             :placeholder="$t('enter.password')"
                                             className="inputFormsignin"
                                         />
-                            <router-link to="/user"><button type="submit">{{ $t('enter.sign-in.btn') }}</button></router-link>
+                            <router-link to="/user/dashboard"><button type="submit">{{ $t('enter.sign-in.btn') }}</button></router-link>
                             <p>{{ $t('enter.sign-in.acc') }} <a href="/sign-up">{{ $t('enter.sign-up.btn') }}</a></p>
                         </div>
                     </div>

@@ -1,11 +1,16 @@
 .sections{
     height: 100vh;
     padding: 20px;
+    margin-left: 60px;
     background: linear-gradient(116.36deg, #DEE2FF 0%, #FFE5D9 51.22%, #FFCAD4 99.34%);
 }
 
 .personal-area{
     height: 100vh;
+}
+
+.row{
+    max-height: 100vh;
 }
 
 .card{

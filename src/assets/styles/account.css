@@ -69,3 +69,21 @@ body {font-family: Verdana, sans-serif;}
   background: #D8E3DC;
   color: white !important
 }
+
+p{
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 15%;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 568px){
+  .row{
+    justify-content: center;
+    text-align: center;
+  }
+
+  #account{
+    justify-content: center;
+    text-align: center;
+  }
+}

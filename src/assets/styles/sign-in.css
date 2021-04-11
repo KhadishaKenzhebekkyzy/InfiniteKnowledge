@@ -71,7 +71,8 @@ p{
 }
 
 .row{
-    text-align: center;
+    justify-content:right; 
+    text-align:right;
     max-height: 400px;
 }
 

@@ -53,5 +53,14 @@
       },
       "email": "Введите почту",
       "password": "Введите пароль"
+    },
+    "user": {
+      "sidebar": {
+        "main": "Главная",
+        "dashboard": "Стена",
+        "courses": "Курсы",
+        "statistics": "Статистика",
+        "logout": "Выйти"
+      }
     }
   }

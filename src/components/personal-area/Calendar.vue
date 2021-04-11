@@ -2,9 +2,7 @@
   <div id="calendar">
       <div class="month">
         <ul>
-            <li class="prev">&#10094;</li>
-            <li class="next">&#10095;</li>
-            <li>August 2021</li>
+            <li>April 2021</li>
         </ul>
       </div>
                 <ul class="weekdays">
