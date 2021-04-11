@@ -1,0 +1,35 @@
+h3{
+    margin-top: 5%;
+    font-weight: 700;
+    margin-bottom: 5%; 
+}
+
+.container{
+    text-align: center;
+}
+
+.card-course{
+    width: 300px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    padding: 10px;
+    background-image: url(../static/back-courses.png);
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .card-course:hover{
+    box-shadow: 0px 0px 20px rgba(203, 192, 211, 0.8);
+    transform: scale(1.01);
+  }
+
+p{
+    font-weight: 600;
+    margin-top: 20%;
+}

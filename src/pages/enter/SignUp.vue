@@ -12,7 +12,7 @@
                     </div>
                     <div class="col-md-6">
                         <div className="row">
-                            <h1><b>{{ $t('enter.sign-up.title') }}</b></h1>
+                            <h1>{{ $t('enter.sign-up.title') }}</h1>
                             
                                     <input
                                             required

@@ -53,12 +53,13 @@
                     :key="grade.name"
                     method="changediv"
                     class="card-grade"
-                    v-bind:id="grade.id">
+                    v-bind:id="grade.id"
+                    v-on:click="select(grade.name)">
                     <h5>{{grade.name}} <br>{{ $t('courses.grades') }}</h5></div>
         </div>
         <h4><b>{{ $t('courses.name2') }}</b></h4>
         <div class="row" style="margin-top:4%; text-align:center; justify-content:center">
-        <Courses/>
+        <Courses style="height: 200px"/>
         </div>
         </div>
     </div>
@@ -77,8 +78,14 @@ export default {
     grades
     }
   },
-  methods(){
-
+  methods: {
+    select: function(number) {
+        this.$router.push(
+          {
+            path: '/grade-'+number,
+          }
+        )
+      }
   }
 }
 </script>

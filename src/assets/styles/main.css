@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
 
 #main-text{
   margin-top: 30%;
@@ -11,6 +10,14 @@
 
 .info{
   color: #8E9AAF;
+}
+
+h1{
+  font-weight: 800;
+}
+
+#main-text{
+  font-weight: 300;
 }
 
 .card{

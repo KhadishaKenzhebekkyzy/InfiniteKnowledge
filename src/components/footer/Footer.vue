@@ -19,7 +19,7 @@
 
 
           <div class="col-xs-6 col-md-4" style="justify-content:center; text-align:center">
-            <router-link to="/"><img class="logo" id="lo" src="../../assets/static/menu-logo.svg" style="max-width:10%; margin-top:5%"/></router-link>
+            <router-link to="/"><img class="logo" id="lo" src="../../assets/static/menu-logo.svg" style="max-width:10%; margin-top:2%"/></router-link>
           </div>
 
           <div class="col-xs-3 col-md-4" style="text-align:right">

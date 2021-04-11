@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-xs-5 col-sm-5 col-lg-5" style="margin-left:5%">
             <h1 id="main-text">{{ $t('main.welcome') }}</h1>
-            <h1><b>{{ $t('main.message') }}{{ $t('main.math') }}</b></h1>
+            <h1>{{ $t('main.message') }}{{ $t('main.math') }}</h1>
             <p id="main-p">
             {{ $t('main.description') }}
             </p>

@@ -10,6 +10,7 @@ import IntroPage from './pages/IntroPage.vue'
 import PersonalArea from './pages/personal-area/PersonalArea.vue'
 import i18n from './i18n'
 import Error from './pages/Error.vue'
+import Grade from './pages/courses/Grade.vue'
 
 const router = new VueRouter({
   mode: 'history',
@@ -33,6 +34,11 @@ const router = new VueRouter({
       path: '/sign-up',
       name: 'signUp',
       component: SignUp
+    },
+    {
+      path: '/grade-:number',
+      name: 'grade',
+      component: Grade
     },
     {
       path: '*',
